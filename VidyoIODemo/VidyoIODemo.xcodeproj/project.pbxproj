@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DC1B88D1E1D506400D5903F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC1B88C1E1D506400D5903F /* main.m */; };
+		1DC1B8901E1D506400D5903F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC1B88F1E1D506400D5903F /* AppDelegate.m */; };
+		1DC1B8931E1D506400D5903F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC1B8921E1D506400D5903F /* ViewController.m */; };
+		1DC1B8961E1D506400D5903F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1B8941E1D506400D5903F /* Main.storyboard */; };
+		1DC1B8981E1D506400D5903F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1B8971E1D506400D5903F /* Assets.xcassets */; };
+		1DC1B89B1E1D506400D5903F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1B8991E1D506400D5903F /* LaunchScreen.storyboard */; };
+		1DC1B8A31E1D507E00D5903F /* VidyoClientIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC1B8A21E1D507E00D5903F /* VidyoClientIOS.framework */; };
+		1DC1B8A41E1D507E00D5903F /* VidyoClientIOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC1B8A21E1D507E00D5903F /* VidyoClientIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DC1B8A51E1D507E00D5903F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1DC1B8A41E1D507E00D5903F /* VidyoClientIOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1DC1B8881E1D506400D5903F /* VidyoIODemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidyoIODemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC1B88C1E1D506400D5903F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DC1B88E1E1D506400D5903F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DC1B88F1E1D506400D5903F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DC1B8911E1D506400D5903F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1DC1B8921E1D506400D5903F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DC1B8951E1D506400D5903F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DC1B8971E1D506400D5903F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DC1B89A1E1D506400D5903F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DC1B89C1E1D506400D5903F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DC1B8A21E1D507E00D5903F /* VidyoClientIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VidyoClientIOS.framework; path = ../VidyoClientIOS.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DC1B8851E1D506400D5903F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC1B8A31E1D507E00D5903F /* VidyoClientIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DC1B87F1E1D506400D5903F = {
+			isa = PBXGroup;
+			children = (
+				1DC1B8A21E1D507E00D5903F /* VidyoClientIOS.framework */,
+				1DC1B88A1E1D506400D5903F /* VidyoIODemo */,
+				1DC1B8891E1D506400D5903F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DC1B8891E1D506400D5903F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DC1B8881E1D506400D5903F /* VidyoIODemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DC1B88A1E1D506400D5903F /* VidyoIODemo */ = {
+			isa = PBXGroup;
+			children = (
+				1DC1B88E1E1D506400D5903F /* AppDelegate.h */,
+				1DC1B88F1E1D506400D5903F /* AppDelegate.m */,
+				1DC1B8911E1D506400D5903F /* ViewController.h */,
+				1DC1B8921E1D506400D5903F /* ViewController.m */,
+				1DC1B8941E1D506400D5903F /* Main.storyboard */,
+				1DC1B8971E1D506400D5903F /* Assets.xcassets */,
+				1DC1B8991E1D506400D5903F /* LaunchScreen.storyboard */,
+				1DC1B89C1E1D506400D5903F /* Info.plist */,
+				1DC1B88B1E1D506400D5903F /* Supporting Files */,
+			);
+			path = VidyoIODemo;
+			sourceTree = "<group>";
+		};
+		1DC1B88B1E1D506400D5903F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DC1B88C1E1D506400D5903F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DC1B8871E1D506400D5903F /* VidyoIODemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DC1B89F1E1D506400D5903F /* Build configuration list for PBXNativeTarget "VidyoIODemo" */;
+			buildPhases = (
+				1DC1B8841E1D506400D5903F /* Sources */,
+				1DC1B8851E1D506400D5903F /* Frameworks */,
+				1DC1B8861E1D506400D5903F /* Resources */,
+				1DC1B8A51E1D507E00D5903F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VidyoIODemo;
+			productName = VidyoIODemo;
+			productReference = 1DC1B8881E1D506400D5903F /* VidyoIODemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DC1B8801E1D506400D5903F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Vidyo;
+				TargetAttributes = {
+					1DC1B8871E1D506400D5903F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 6888NB32SR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1DC1B8831E1D506400D5903F /* Build configuration list for PBXProject "VidyoIODemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DC1B87F1E1D506400D5903F;
+			productRefGroup = 1DC1B8891E1D506400D5903F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DC1B8871E1D506400D5903F /* VidyoIODemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DC1B8861E1D506400D5903F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC1B89B1E1D506400D5903F /* LaunchScreen.storyboard in Resources */,
+				1DC1B8981E1D506400D5903F /* Assets.xcassets in Resources */,
+				1DC1B8961E1D506400D5903F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DC1B8841E1D506400D5903F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC1B8931E1D506400D5903F /* ViewController.m in Sources */,
+				1DC1B8901E1D506400D5903F /* AppDelegate.m in Sources */,
+				1DC1B88D1E1D506400D5903F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DC1B8941E1D506400D5903F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DC1B8951E1D506400D5903F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DC1B8991E1D506400D5903F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DC1B89A1E1D506400D5903F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DC1B89D1E1D506400D5903F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DC1B89E1E1D506400D5903F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DC1B8A01E1D506400D5903F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(PROJECT_DIR)/../VidyoIODemo.entitlements";
+				DEVELOPMENT_TEAM = 6888NB32SR;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../VidyoClientIOS.framework/Headers/**";
+				INFOPLIST_FILE = VidyoIODemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidyo.VidyoIODemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1DC1B8A11E1D506400D5903F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "$(PROJECT_DIR)/../VidyoIODemo.entitlements";
+				DEVELOPMENT_TEAM = 6888NB32SR;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/../VidyoClientIOS.framework/Headers/**";
+				INFOPLIST_FILE = VidyoIODemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vidyo.VidyoIODemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DC1B8831E1D506400D5903F /* Build configuration list for PBXProject "VidyoIODemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC1B89D1E1D506400D5903F /* Debug */,
+				1DC1B89E1E1D506400D5903F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DC1B89F1E1D506400D5903F /* Build configuration list for PBXNativeTarget "VidyoIODemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC1B8A01E1D506400D5903F /* Debug */,
+				1DC1B8A11E1D506400D5903F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DC1B8801E1D506400D5903F /* Project object */;
+}
