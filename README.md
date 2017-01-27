@@ -1,6 +1,8 @@
 # helloworld-vidyo.io-ios
 Simple video chat application using Vidyo.io on iOS
 
+> For an instructional video detailing how to build this app, take a look at this [Blog Post](https://vidyo.io/how-to/build-mobile-video-chat-app-ios-minutes).
+
 ## Clone Repository
 git clone https://github.com/Vidyo/helloworld-vidyo.io-ios.git
 
