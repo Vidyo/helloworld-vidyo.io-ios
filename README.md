@@ -8,7 +8,7 @@ git clone https://github.com/Vidyo/helloworld-vidyo.io-ios.git
 1. Download the latest Vidyo.io iOS SDK package: https://static.vidyo.io/latest/package/VidyoClient-iOSSDK.zip
 2. Copy the framework located at VidyoClient-iOSSDK/lib/ios/VidyoClientIOS.framework to the root directory of where this repository was cloned (i.e. parallel to this README.md file)
 
-> Note: VidyoClientIOS.framework available in SDK versions 4.1.5.x and later; for previous versions of the SDK, build using libraries and frameworks as described below.
+> Note: VidyoClientIOS.framework is available in SDK versions 4.1.5.x and later; for previous versions of the SDK, build using libraries and frameworks as described below.
 
 ## Build Project
 1. Open the project VidyoIODemo/VidyoIODemo.xcodeproj in Xcode 8.0 or later
@@ -19,19 +19,19 @@ git clone https://github.com/Vidyo/helloworld-vidyo.io-ios.git
 ## Alternatively, Build Using Libraries & Third Party Frameworks
 If preferred, you may create your project using a combination of libraries and third party frameworks, as opposed to the VidyoClientIOS framework.
 
-1. Import the library and header directories from the Vidyo.io iOS package into your project:
+1. Import the library and header directories from the Vidyo.io iOS SDK package into your project:
 	* VidyoClient-iOSSDK/lib
 	* VidyoClient-iOSSDK/include
 
 2. Add the following libraries and frameworks to the Linked Frameworks and Libraries settings in the General settings of the target:
-	* libVidyoClient.a	(included in Vidyo.io iOS package)
-	* libcrypto.a		(included in Vidyo.io iOS package)
-	* libopus.a		(included in Vidyo.io iOS package)
-	* libspeex.a		(included in Vidyo.io iOS package)
-	* libspeexdsp.a		(included in Vidyo.io iOS package)
-	* libsrtp.a		(included in Vidyo.io iOS package)
-	* libssl.a 		(included in Vidyo.io iOS package)
-	* VPX.framework		(included in Vidyo.io iOS package)
+	* libVidyoClient.a	(included in Vidyo.io iOS SDK package)
+	* libcrypto.a		(included in Vidyo.io iOS SDK package)
+	* libopus.a		(included in Vidyo.io iOS SDK package)
+	* libspeex.a		(included in Vidyo.io iOS SDK package)
+	* libspeexdsp.a		(included in Vidyo.io iOS SDK package)
+	* libsrtp.a		(included in Vidyo.io iOS SDK package)
+	* libssl.a 		(included in Vidyo.io iOS SDK package)
+	* VPX.framework		(included in Vidyo.io iOS SDK package)
 	* AVFoundation.framework
 	* CoreGraphics.framework
 	* CoreVideo.framework
