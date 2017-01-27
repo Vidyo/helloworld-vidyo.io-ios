@@ -5,8 +5,9 @@ Simple video chat application using Vidyo.io on iOS
 git clone https://github.com/Vidyo/helloworld-vidyo.io-ios.git
 
 ## Acquire Framework
-1. Download the latest Vidyo.io iOS package: https://static.vidyo.io/latest/package/VidyoClient-iOSSDK.zip
+1. Download the latest Vidyo.io iOS SDK package: https://static.vidyo.io/latest/package/VidyoClient-iOSSDK.zip
 2. Copy the framework located at VidyoClient-iOSSDK/lib/ios/VidyoClientIOS.framework to the root directory of where this repository was cloned (i.e. parallel to this README.md file)
+> Note: VidyoClientIOS.framework available in SDK versions 4.1.5.x and later; for previous versions of the SDK, build using libraries and frameworks as described below.
 
 ## Build Project
 1. Open the project VidyoIODemo/VidyoIODemo.xcodeproj in Xcode 8.0 or later
