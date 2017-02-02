@@ -37,7 +37,7 @@
 
 
 - (IBAction)Connect:(id)sender {
-    const char* token = "cHJvdmlzaW9uAGRlbW91c2VyX2Y0Y2U2ZUBiM2QxNmUudmlprW8uaW8ANjM2NTA3NzIwMjAAAGE0OTU1ODM2ODNlNWZiZWVjM2MxZWQ2NThmYzhiMjNhNDY2MTIzMWVjNTA1YWNiOTNhMTFlZjcxZDVkNWIwMjY4ZjNhNGVjNzJmN2IwMzFlOGZjZGYzZDU3NjRhNWM5ZQ==";
+    const char* token = "InsertValidTokenHere";
     [c Connect:"prod.vidyo.io" Token:token DisplayName:"DemoUser" ResourceId:"DemoRoom" Connect:self];
 }
 

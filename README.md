@@ -8,15 +8,16 @@ git clone https://github.com/Vidyo/helloworld-vidyo.io-ios.git
 
 ## Acquire Framework
 1. Download the latest Vidyo.io iOS SDK package: https://static.vidyo.io/latest/package/VidyoClient-iOSSDK.zip
-2. Copy the framework located at VidyoClient-iOSSDK/lib/ios/VidyoClientIOS.framework to the root directory of where this repository was cloned (i.e. parallel to this README.md file)
+2. Copy the framework located at VidyoClient-iOSSDK/lib/ios/VidyoClientIOS.framework to the root directory of where this repository was cloned (i.e. parallel to this README.md file).
 
 > Note: VidyoClientIOS.framework is available in SDK versions 4.1.5.x and later; for previous versions of the SDK, build using libraries and frameworks as described below.
 
-## Build Project
-1. Open the project VidyoIODemo/VidyoIODemo.xcodeproj in Xcode 8.0 or later
-2. Connect an iOS device to your computer via USB
-3. Select the iOS device as the build target of your application
-4. Build and run the application on the iOS device
+## Build and Run Application
+1. Open the project VidyoIODemo/VidyoIODemo.xcodeproj in Xcode 8.0 or later.
+2. Open the source file VidyoIODemo/VidyoIODemo/ViewController.m and update the token value "InsertValidTokenHere" with a valid generated token. See the Token section of the Documentation at https://vidyo.io for more info on generating tokens.
+3. Connect an iOS device to your computer via USB.
+4. Select the iOS device as the build target of your application.
+5. Build and run the application on the iOS device.
 
 ## Alternatively, Build Using Libraries & Third Party Frameworks
 If preferred, you may create your project using a combination of libraries and third party frameworks, as opposed to the VidyoClientIOS framework.
