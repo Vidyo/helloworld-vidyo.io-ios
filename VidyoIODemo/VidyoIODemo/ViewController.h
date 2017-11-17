@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 #import "Lmi/VidyoClient/VidyoConnector_Objc.h"
 
-@interface ViewController : UIViewController <IConnect>
+@interface ViewController : UIViewController <VCIConnect>
 @property (weak, nonatomic) IBOutlet UIView *videoView;
 - (IBAction)Connect:(id)sender;
 

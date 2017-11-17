@@ -9,7 +9,7 @@
 
 @interface ViewController () {
     @private
-    Connector *c;
+    VCConnector *c;
 }
 
 @end
@@ -20,13 +20,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [VidyoClientConnector Initialize];
-    c = [[Connector alloc] init:&_videoView ViewStyle:CONNECTORVIEWSTYLE_Default RemoteParticipants:16 LogFileFilter:"" LogFileName:"" UserData:0];
+    [VCConnectorPkg vcInitialize];
+    c = [[VCConnector alloc] init:&_videoView ViewStyle:VCConnectorViewStyleDefault RemoteParticipants:15 LogFileFilter:"" LogFileName:"" UserData:0];
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    [c ShowViewAt:&_videoView X:0 Y:0 Width:_videoView.frame.size.width Height:_videoView.frame.size.height];
+    [c showViewAt:&_videoView X:0 Y:0 Width:_videoView.frame.size.width Height:_videoView.frame.size.height];
 }
 
 
@@ -38,23 +38,17 @@
 
 - (IBAction)Connect:(id)sender {
     const char* token = "InsertValidTokenHere";
-    [c Connect:"prod.vidyo.io" Token:token DisplayName:"DemoUser" ResourceId:"DemoRoom" Connect:self];
+    [c connect:"prod.vidyo.io" Token:token DisplayName:"DemoUser" ResourceId:"DemoRoom" Connect:self];
 }
 
 - (IBAction)Disconnect:(id)sender {
-    [c Disconnect];
+    [c disconnect];
 }
 
--(void) OnSuccess {
-    
-}
+-(void) onSuccess {}
 
--(void) OnDisconnected:(ConnectorDisconnectReason)reason {
-    
-}
+-(void) onDisconnected:(VCConnectorDisconnectReason)reason {}
 
--(void) OnFailure:(ConnectorFailReason)reason {
-    
-}
+-(void) onFailure:(VCConnectorFailReason)reason {}
 
 @end
