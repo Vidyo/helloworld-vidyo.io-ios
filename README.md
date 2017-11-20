@@ -15,7 +15,7 @@ git clone https://github.com/Vidyo/helloworld-vidyo.io-ios.git
 
 ## Build and Run Application
 1. Open the project VidyoIODemo/VidyoIODemo.xcodeproj in Xcode 8.0 or later.
-2. Open the source file VidyoIODemo/VidyoIODemo/ViewController.m and update the token value "InsertValidTokenHere" with a valid generated token. See the Token section of the Documentation at https://vidyo.io for more info on generating tokens.
+2. Open the source file VidyoIODemo/VidyoIODemo/ViewController.m and update the token value "InsertValidTokenHere" with a valid generated token. See the Token section of the Documentation at https://developer.vidyo.io for more info on generating tokens or watch an instructional video [here](https://support.vidyo.io/hc/en-us/articles/115004915647-Generate-Vidyo-io-Tokens).
 3. Connect an iOS device to your computer via USB.
 4. Select the iOS device as the build target of your application.
 5. Build and run the application on the iOS device.
