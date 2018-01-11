@@ -10,7 +10,7 @@ git clone https://github.com/Vidyo/helloworld-vidyo.io-ios.git
 1. Download the latest Vidyo.io iOS SDK package: https://static.vidyo.io/latest/package/VidyoClient-iOSSDK.zip
 2. Copy the framework located at VidyoClient-iOSSDK/lib/ios/VidyoClientIOS.framework to the root directory of where this repository was cloned (i.e. parallel to this README.md file).
 
-> Note: VidyoClient SDK version 4.1.17.5 or greater is required.
+> Note: VidyoClient SDK version 4.1.19.7 or greater is required.
 > The version of the SDK that you are acquiring is highlighted in the blue box here: https://developer.vidyo.io/documentation/latest
 
 ## Build and Run Application

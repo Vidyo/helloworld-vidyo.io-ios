@@ -38,7 +38,7 @@
 
 - (IBAction)Connect:(id)sender {
     const char* token = "InsertValidTokenHere";
-    [c connect:"prod.vidyo.io" Token:token DisplayName:"DemoUser" ResourceId:"DemoRoom" Connect:self];
+    [c connect:"prod.vidyo.io" Token:token DisplayName:"DemoUser" ResourceId:"DemoRoom" ConnectorIConnect:self];
 }
 
 - (IBAction)Disconnect:(id)sender {
