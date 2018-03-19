@@ -15,13 +15,13 @@ git clone https://github.com/Vidyo/helloworld-vidyo.io-ios.git
 
 ## Notes
 1. Since the instructional video was created, there have been a number of updates to the VidyoClient SDK. One of these updates relates to the necessary frameworks that should be included in "Linked Frameworks and Libraries" in the target's General settings. The following "Linked Frameworks and Libraries" should be added:
--AudioToolbox.framework
--AVFoundation.framework
--CoreLocation.framework
--CoreMedia.framework
--SystemConfiguration.framework
--UIKit.framework
--VidyoClientIOS.framework
+- AudioToolbox.framework
+- AVFoundation.framework
+- CoreLocation.framework
+- CoreMedia.framework
+- SystemConfiguration.framework
+- UIKit.framework
+- VidyoClientIOS.framework
 
 ## Build and Run Application
 1. Open the project VidyoIODemo/VidyoIODemo.xcodeproj in Xcode 9.0 or later.
