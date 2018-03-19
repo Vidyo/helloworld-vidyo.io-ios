@@ -13,23 +13,14 @@
 		1DC1B8961E1D506400D5903F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1B8941E1D506400D5903F /* Main.storyboard */; };
 		1DC1B8981E1D506400D5903F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1B8971E1D506400D5903F /* Assets.xcassets */; };
 		1DC1B89B1E1D506400D5903F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1B8991E1D506400D5903F /* LaunchScreen.storyboard */; };
-		1DC1B8A31E1D507E00D5903F /* VidyoClientIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC1B8A21E1D507E00D5903F /* VidyoClientIOS.framework */; };
-		1DC1B8A41E1D507E00D5903F /* VidyoClientIOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC1B8A21E1D507E00D5903F /* VidyoClientIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1DF099942060609C0068363D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF0998E2060609B0068363D /* AudioToolbox.framework */; };
+		1DF099952060609C0068363D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF0998F2060609B0068363D /* CoreLocation.framework */; };
+		1DF099962060609C0068363D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF099902060609B0068363D /* CoreMedia.framework */; };
+		1DF099972060609C0068363D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF099912060609B0068363D /* SystemConfiguration.framework */; };
+		1DF099982060609C0068363D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF099922060609B0068363D /* UIKit.framework */; };
+		1DF099992060609C0068363D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF099932060609B0068363D /* AVFoundation.framework */; };
+		1DF0999A206060A00068363D /* VidyoClientIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC1B8A21E1D507E00D5903F /* VidyoClientIOS.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		1DC1B8A51E1D507E00D5903F /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				1DC1B8A41E1D507E00D5903F /* VidyoClientIOS.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1DC1B8881E1D506400D5903F /* VidyoIODemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidyoIODemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +34,12 @@
 		1DC1B89A1E1D506400D5903F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DC1B89C1E1D506400D5903F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1DC1B8A21E1D507E00D5903F /* VidyoClientIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VidyoClientIOS.framework; path = ../VidyoClientIOS.framework; sourceTree = "<group>"; };
+		1DF0998E2060609B0068363D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1DF0998F2060609B0068363D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1DF099902060609B0068363D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1DF099912060609B0068363D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1DF099922060609B0068363D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DF099932060609B0068363D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +47,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1DC1B8A31E1D507E00D5903F /* VidyoClientIOS.framework in Frameworks */,
+				1DF099942060609C0068363D /* AudioToolbox.framework in Frameworks */,
+				1DF099992060609C0068363D /* AVFoundation.framework in Frameworks */,
+				1DF099952060609C0068363D /* CoreLocation.framework in Frameworks */,
+				1DF099962060609C0068363D /* CoreMedia.framework in Frameworks */,
+				1DF099972060609C0068363D /* SystemConfiguration.framework in Frameworks */,
+				1DF099982060609C0068363D /* UIKit.framework in Frameworks */,
+				1DF0999A206060A00068363D /* VidyoClientIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 				1DC1B8A21E1D507E00D5903F /* VidyoClientIOS.framework */,
 				1DC1B88A1E1D506400D5903F /* VidyoIODemo */,
 				1DC1B8891E1D506400D5903F /* Products */,
+				1DF0998D2060609B0068363D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +102,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1DF0998D2060609B0068363D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF0998E2060609B0068363D /* AudioToolbox.framework */,
+				1DF099932060609B0068363D /* AVFoundation.framework */,
+				1DF0998F2060609B0068363D /* CoreLocation.framework */,
+				1DF099902060609B0068363D /* CoreMedia.framework */,
+				1DF099912060609B0068363D /* SystemConfiguration.framework */,
+				1DF099922060609B0068363D /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -108,7 +125,6 @@
 				1DC1B8841E1D506400D5903F /* Sources */,
 				1DC1B8851E1D506400D5903F /* Frameworks */,
 				1DC1B8861E1D506400D5903F /* Resources */,
-				1DC1B8A51E1D507E00D5903F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,6 +356,7 @@
 				1DC1B8A11E1D506400D5903F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

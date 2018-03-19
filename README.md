@@ -10,11 +10,21 @@ git clone https://github.com/Vidyo/helloworld-vidyo.io-ios.git
 1. Download the latest Vidyo.io iOS SDK package: https://static.vidyo.io/latest/package/VidyoClient-iOSSDK.zip
 2. Copy the framework located at VidyoClient-iOSSDK/lib/ios/VidyoClientIOS.framework to the root directory of where this repository was cloned (i.e. parallel to this README.md file).
 
-> Note: VidyoClient SDK version 4.1.19.7 or greater is required.
+> Note: VidyoClient SDK version 4.1.21.7 or greater is required.
 > The version of the SDK that you are acquiring is highlighted in the blue box here: https://developer.vidyo.io/documentation/latest
 
+## Notes
+1. Since the instructional video was created, there have been a number of updates to the VidyoClient SDK. One of these updates relates to the necessary frameworks that should be included in "Linked Frameworks and Libraries" in the target's General settings. The following "Linked Frameworks and Libraries" should be added:
+-AudioToolbox.framework
+-AVFoundation.framework
+-CoreLocation.framework
+-CoreMedia.framework
+-SystemConfiguration.framework
+-UIKit.framework
+-VidyoClientIOS.framework
+
 ## Build and Run Application
-1. Open the project VidyoIODemo/VidyoIODemo.xcodeproj in Xcode 8.0 or later.
+1. Open the project VidyoIODemo/VidyoIODemo.xcodeproj in Xcode 9.0 or later.
 2. Open the source file VidyoIODemo/VidyoIODemo/ViewController.m and update the token value "InsertValidTokenHere" with a valid generated token. See the Token section of the Documentation at https://developer.vidyo.io for more info on generating tokens or watch an instructional video [here](https://support.vidyo.io/hc/en-us/articles/115004915647-Generate-Vidyo-io-Tokens).
 3. Connect an iOS device to your computer via USB.
 4. Select the iOS device as the build target of your application.
