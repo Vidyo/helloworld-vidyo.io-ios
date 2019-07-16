@@ -1,10 +1,10 @@
-# helloworld-vidyo.io-ios
+# vidyo.io-helloworld-ios
 Simple video chat application using Vidyo.io on iOS
 
 > For an instructional video detailing how to build this app, take a look at this [Blog Post](https://vidyo.io/how-to/build-mobile-video-chat-app-ios-minutes).
 
 ## Clone Repository
-git clone https://github.com/Vidyo/helloworld-vidyo.io-ios.git
+git clone https://github.com/Vidyo/vidyo.io-helloworld-ios.git
 
 ## Acquire Framework
 1. Download the latest Vidyo.io iOS SDK package: https://static.vidyo.io/latest/package/VidyoClient-iOSSDK.zip
